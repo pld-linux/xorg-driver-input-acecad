@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Acecad Flair devices
 Summary(pl):	Sterownik wej¶ciowy X.org dla urz±dzeñ Acecad Flair
 Name:		xorg-driver-input-acecad
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-input-acecad-%{version}.tar.bz2
-# Source0-md5:	0dc6881e961e9661a2a5dbef9a45f32f
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-acecad-%{version}.tar.bz2
+# Source0-md5:	5e4aede1013d13f6f79dfc44b350a022
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/input/acecad_drv.so
 %{_mandir}/man4/acecad.4*
