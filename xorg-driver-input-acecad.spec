@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Acecad Flair devices
-Summary(pl.UTF-8):   Sterownik wejściowy X.org dla urządzeń Acecad Flair
+Summary(pl.UTF-8):	Sterownik wejściowy X.org dla urządzeń Acecad Flair
 Name:		xorg-driver-input-acecad
 Version:	1.1.0
 Release:	0.1
